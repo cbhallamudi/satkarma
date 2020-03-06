@@ -21,7 +21,7 @@
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
   <!-- Custom styles for this template -->
-  <link href="<?php echo base_url('public/website/') ?>/css/agency.min.css" rel="stylesheet">
+  <link href="<?php echo base_url('public/website/') ?>/css/agency.css" rel="stylesheet">
 
 </head>
 
@@ -59,11 +59,13 @@
 
   <!-- Header -->
   <header class="masthead">
-    <div class="container">
-      <div class="intro-text">
-        <div class="intro-lead-in">Welcome To Our Studio!</div>
-        <div class="intro-heading text-uppercase">It's Nice To Meet You</div>
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
+    <div class="masthead-layer">
+      <div class="container">
+        <div class="intro-text">
+          <div class="intro-lead-in">Welcome To Satkarma!</div>
+          <div class="intro-heading text-uppercase">It's Nice To Meet You</div>
+          <a class="btn btn-primary btn-md text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
+        </div>
       </div>
     </div>
   </header>
@@ -440,7 +442,7 @@
               <div class="clearfix"></div>
               <div class="col-lg-12 text-center">
                 <div id="success"></div>
-                <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
+                <button id="sendMessageButton" class="btn btn-primary btn-md text-uppercase" type="submit">Send Message</button>
               </div>
             </div>
           </form>
