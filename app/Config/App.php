@@ -21,7 +21,7 @@ class App extends BaseConfig
 	| environments.
 	|
 	*/
-	public $baseURL = 'http://localhost/satkarma/';
+	public $baseURL = 'http://localhost/sample_website/';
 
 	/*
 	|--------------------------------------------------------------------------
