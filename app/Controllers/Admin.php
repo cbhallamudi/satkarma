@@ -21,6 +21,25 @@ class Admin extends BaseController
 	{
 		return view('admin/tables');
 	}
+
+	public function page_404($value='')
+	{
+		return view('admin/404');
+	}
+
+	public function forgotpwd($value='')
+	{
+		return view('admin/forgotpwd');
+	}
+	public function login($value='')
+	{
+		return view('admin/login');
+	}
+	public function register($value='')
+	{
+		return view('admin/register');
+	}
+	
 }
 
 ?>
