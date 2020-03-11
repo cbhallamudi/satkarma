@@ -39,13 +39,18 @@ $routes->get('/', 'Home::index');
 
 
 // Admin routes
-$routes->get('admin', 'Admin::index');
+$routes->get('admin', 'Admin::login');
+$routes->get('dashboard', 'Admin::index');
 $routes->get('tables', 'Admin::tables');
 $routes->get('page_404', 'Admin::page_404');
 $routes->get('blank', 'Admin::blank');
 $routes->get('forgotpwd', 'Admin::forgotpwd');
 $routes->get('login', 'Admin::login');
 $routes->get('register', 'Admin::register');
+
+// Admin Functionalities
+$routes->get('admin-login', 'Admin::index');
+// $routes->get('admin-login', 'Admin::admin_login');
 
 
 /**
