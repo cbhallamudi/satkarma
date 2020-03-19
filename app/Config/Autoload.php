@@ -55,6 +55,8 @@ class Autoload extends \CodeIgniter\Config\AutoloadConfig
 			'Config'      => APPPATH . 'Config',
 		];
 
+		// helper(['url', 'form']);
+
 		/**
 		 * -------------------------------------------------------------------
 		 * Class Map
@@ -79,6 +81,7 @@ class Autoload extends \CodeIgniter\Config\AutoloadConfig
 
 		$this->psr4     = array_merge($this->psr4, $psr4);
 		$this->classmap = array_merge($this->classmap, $classmap);
+
 
 		unset($psr4, $classmap);
 	}
