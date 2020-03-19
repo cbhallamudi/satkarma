@@ -39,6 +39,27 @@ class Admin extends BaseController
 	{
 		return view('admin/register');
 	}
+	public function Users(){
+		return view('admin/Users');
+	}
+	public function Partners(){
+		return view('admin/Partners');
+	}
+	public function CMS(){
+		return view('admin/CMS');
+	}
+	public function Books(){
+		return view('admin/Books');
+	}
+	public function BookCategories(){
+		return view('admin/BookCategories');
+	}
+	public function BookGenres(){
+		return view('admin/BookGenres');
+	}
+	public function BookLanguages(){
+		return view('admin/BookLanguages');
+	}
 	
 }
 

@@ -48,6 +48,14 @@ $routes->get('forgotpwd', 'Admin::forgotpwd');
 $routes->get('login', 'Admin::login');
 $routes->get('register', 'Admin::register');
 
+$routes->get('Users','Admin::Users');
+$routes->get('Partners','Admin::Partners');
+$routes->get('CMS','Admin::CMS');
+$routes->get('Books','Admin::Books');
+$routes->get('BookCategories','Admin::BookCategories');
+$routes->get('BookGenres','Admin::BookGenres');
+$routes->get('BookLanguages','Admin::BookLanguages');
+
 // Admin Functionalities
 $routes->get('admin-login', 'Admin::index');
 // $routes->get('admin-login', 'Admin::admin_login');
